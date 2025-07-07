@@ -1,0 +1,110 @@
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  height: 180px;
+  pointer-events: none;
+}
+
+.app-title {
+  font-size: 1.6rem;
+  margin-top: 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+.form-hint {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-button:disabled {
+  background-color: #aaa;
+  cursor: wait;
+}
+
+.results {
+  margin-top: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.history {
+  margin-top: 24px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.history-item {
+  font-size: 0.9rem;
+  color: #444;
+  padding: 4px 0;
+}
+
+.suggestion {
+  margin-top: 16px;
+  background-color: #eef;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cce;
+}
+
+.suggestion-match {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 4px 0;
+}
+
+.spinner {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #333;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  animation: spin 0.6s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 0.75rem;
+  color: #999;
+  text-align: center;
+}

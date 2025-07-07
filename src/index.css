@@ -1,0 +1,10 @@
+/* Reset & base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+* {
+  box-sizing: border-box;
+}
